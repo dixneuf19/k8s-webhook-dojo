@@ -14,20 +14,20 @@ func TestAddTolerations(t *testing.T) {
 	testCases := []struct {
 		requestFile, responseFile string
 	}{
-		// {
-		// 	requestFile:  "testdata/has-toleration/request.json",
-		// 	responseFile: "testdata/has-toleration/response.json",
-		// },
+		{
+			requestFile:  "testdata/has-toleration/request.json",
+			responseFile: "testdata/has-toleration/response.json",
+		},
 
-		// {
-		// 	requestFile:  "testdata/missing-toleration/request.json",
-		// 	responseFile: "testdata/missing-toleration/response.json",
-		// },
+		{
+			requestFile:  "testdata/missing-toleration/request.json",
+			responseFile: "testdata/missing-toleration/response.json",
+		},
 
-		// {
-		// 	requestFile:  "testdata/no-tolerations/request.json",
-		// 	responseFile: "testdata/no-tolerations/response.json",
-		// },
+		{
+			requestFile:  "testdata/no-tolerations/request.json",
+			responseFile: "testdata/no-tolerations/response.json",
+		},
 	}
 
 	for _, tc := range testCases {

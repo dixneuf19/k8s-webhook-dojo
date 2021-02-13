@@ -10,4 +10,4 @@ resources:
 images:
 - name: webhook
   newName: padok.fr/webhook
-  newTag: v1.0.0
+  newTag: 2.0.4
